@@ -8,7 +8,7 @@ void selection_sort(int num[], int ordem ){
     for(i=0; i<ordem; i++){
       min=i;
 	  for(j=(i+1); j<ordem; j++){
-	    if(num [j]> num[min]){
+	    if(num [j] < num[min]){
 	       min=j;	
 		}
 		
@@ -35,7 +35,7 @@ int main(){
 		
 		 for(int j=0; j<10; j++){
 			
-		printf("A Ordem Cresente Das Idades Informadas São %d:\n",idade[j]);	
+		printf("A Ordem Cresente Das Idades Informadas SÃ£o %d:\n",idade[j]);	
 			
 		}
 	
